@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위플래쉬</title>
+    <link type="text/css" rel="stylesheet" href="css.css">
+    <style>
+         body {
+            position: relative;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('2.gif');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="fade-in">
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Cinema</a></h1>
+        </div>
+        <a href="movie.html" class="gallery-button">갤러리</a>
+    </header>
+
+    <section class="section">
+        <div class="movie-info">
+            <div class="poster">
+                <img src="2.jpg" alt="위플래쉬">
+            </div>
+            <div class="details">
+                <h2>위플래쉬</h2>
+                <div class="rating">
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    5.0
+                </div>
+                <p style="color: gray;">2014 | 관람등급: 15+ | 1시간 46분 | 드라마, 스릴러</p><br>
+                <P>출연: 마일스 텔러, J. K. 시몬스 </P><br>
+                <p class="plot">완벽을 추구하는 음악 교수의 지도에 따라, 앤드류는 재즈 뮤지션으로 성공하겠다는 일념에 불탄다. 성공의 대가로 인격이 파괴될지라도.</p>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="review-form">
+                <h3>리뷰 작성하기</h3>
+                <form action="">
+                    <label for="rating">별점 선택:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">별점을 선택하세요</option>
+                        <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                        <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734;</option>
+                        <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734;</option>
+                        <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734;</option>
+                        <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734;</option>
+                    </select>
+                    <label for="username">아이디:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">비밀번호:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="review">리뷰 내용:</label>
+                    <textarea id="review" name="review" required></textarea>
+                    <input type="submit" value="리뷰 작성">
+                </form>
+            </div>
+            
+            <br>
+            <div class="review-list">
+                <h3>리뷰 보기</h3><br>
+                <div class="review">
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9734;</p><br>
+                    <span class="user">20222877</span> 님의 리뷰:</p>
+                    <p>배우의 연기만으로 보는 사람들을 불안하게 만드는 영화다. 주인공 앤드류 네이먼이 정신적으로 몰리고, 고뇌하다 결국에 마지막에 가서는 본인 스스로 원하던 음악가의 모습으로 각성하는 과정이 숨가쁘다. 네이먼과 플레처의 광기가 충돌하는 마지막이 특히나 끔찍하고도 훌륭하다.</p>
+                </div>
+                <div class="review">
+                    <p>&#9734;&#9734;&#9734;&#9734;&#9734;</p><br>
+                    <span class="user"></span> 님의 리뷰:</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>웹프로그래밍 기초와 CSS 기말 과제</p>
+    </footer>
+</body>
+</html>
